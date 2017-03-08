@@ -1,0 +1,5 @@
+C:\inetpub\wwwroot\dnn\bin\Reges.dll
+C:\inetpub\wwwroot\dnn\bin\Reges.pdb
+C:\inetpub\wwwroot\dnn\Portals\_default\Skins\Reges\obj\Debug\Reges.csprojResolveAssemblyReference.cache
+C:\inetpub\wwwroot\dnn\Portals\_default\Skins\Reges\obj\Debug\Reges.dll
+C:\inetpub\wwwroot\dnn\Portals\_default\Skins\Reges\obj\Debug\Reges.pdb
