@@ -1,0 +1,90 @@
+/*
+blue: #253342
+red: 39e4040
+gray:ccccc
+light-gray: f2f4f4
+*/
+
+#containero {
+    width: 100%;
+    margin: 0 auto;
+    
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+#menu1 {
+    height: 60px;
+    width: 100%;
+    background-color: #253342;
+    color: white;
+    position: fixed;
+}
+
+#loge{
+    height: 60px;
+    float: left;
+    line-height: 60px;
+    padding-left: 20px;
+}
+
+
+
+.navbar-default
+{
+    margin: 0px;
+    
+}
+    
+ .carousel slide{ 
+    width: 100%;
+    height: 270px;    
+}
+
+.menu-all .menu-item {
+   
+    float: right;
+    padding: 10px;
+    list-style-type: none;
+    line-height: 40px;
+    border:
+}
+
+.menu-all .menu-item:hover {
+    background-color: #9e4040;
+   
+}
+
+
+#hero1
+{
+    height: 290px;
+    width: 100%
+    margin: 0px;
+        
+}
+.mbr-contacts__text{
+     color: white
+}
+
+
+#wsfooter{
+
+    
+}
+
+.Contents
+{
+    float: right;
+    padding: 20px;
+}
+
+
+lineo {
+    height: 130px;
+    width: 100%;
+    background-color: #253342;
+    color: black;
+}
