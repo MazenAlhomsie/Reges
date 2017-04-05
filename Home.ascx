@@ -28,17 +28,19 @@
     ItemTemplate='<li class="language_[CULTURE:THREELETTERISOCODE]"><a href="[URL]" class="Language" title="[CULTURE:NATIVENAME]">[CULTURE:THREELETTERISOCODE]</a></li>'
     SelectedItemTemplate='<li class="active language_[CULTURE:THREELETTERISOCODE]"><a href="[URL]" class="Language" title="[CULTURE:NATIVENAME]">[CULTURE:THREELETTERISOCODE]</a></li>'
     AlternateTemplate='<li class="language_[CULTURE:THREELETTERISOCODE]"><a href="[URL]" class="Language" title="[CULTURE:NATIVENAME]">[CULTURE:THREELETTERISOCODE]</a></li>'
-    FooterTemplate="</ul>"
-    HeaderTemplate='<ul class="nav nav-tabs">'>
+    FooterTemplate="</ul></div>"
+    HeaderTemplate='<div class="reges-languages"><ul class="nav nav-tabs">'>
 </dnn:LANGUAGE>
 <script>
     $('.language-object').hide()
     $(function () {
         $('.language_eng a').html('Welcome')
         $('.language_deu a').html('Willkommen')
-        $('.language_ara a').html('مرحبا')  
-        $('.language_fra a').html('Bienvenue')  
-        $('.language_uzb a').html('ښه راغلاست')
+        $('.language_ara a').html('مرحبا')
+        $('.language_fra a').html('Bienvenue')
+        $('.language_pus a').html('ښه راغلاست')
+        $('.language_fas a').html('خوش آمدی')
+        $('.language_urd a').html('خوش')
         $('.language-object').show()
     })
 </script>
@@ -90,33 +92,9 @@
     
     <div class="mbr-section__container container">
         <div class="mbr-contacts mbr-contacts--wysiwyg row" style="padding-top: 45px; padding-bottom: 45px;">
-            <div class="col-sm-4">
-                <div id="FooterLeftPane" runat="server"></div>
-            </div>
-            <div class="col-sm-8">
-                <div class="row">
-                    <div class="col-sm-4">
-                        <div class="mbr-contacts__text">
-                            <div id="FooterMiddlePane" runat="server"></div>
-                        </div>
-                    </div>
-                    <div class="col-sm-4">
-                        <div class="mbr-contacts__text">
-                            <div id="FooterRightPane" runat="server"></div>
-                        </div>
-                    </div>
-                    <div class="col-sm-4"></div>
-                </div>
-            </div>
+            <div id="FooterPane" runat="server"></div>
         </div>
     </div>
 </footer>
-                        
-                        
-                        
 
-<!--wsfooter-->
-<section id="wsfooter">
-    <center> © ReGES e.V. 2017</center>
-</section>
 
