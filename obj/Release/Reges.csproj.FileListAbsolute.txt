@@ -7,4 +7,3 @@ C:\inetpub\wwwroot\dnn7_4\bin\Reges.dll
 C:\inetpub\wwwroot\dnn7_4\bin\Reges.pdb
 C:\inetpub\wwwroot\dnn7_4\Portals\_default\Skins\Reges\obj\Release\Reges.dll
 C:\inetpub\wwwroot\dnn7_4\Portals\_default\Skins\Reges\obj\Release\Reges.pdb
-C:\inetpub\wwwroot\dnn7_4\Portals\_default\Skins\Reges\obj\Release\Reges.csprojResolveAssemblyReference.cache
