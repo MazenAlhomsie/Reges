@@ -1,3 +1,10 @@
+body {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #333;
+    background-color: #fff;
+}
 .Normal {
     font-size: 14px;
     line-height: 1.428;
@@ -8,15 +15,16 @@
     border-radius: 0 !important;
 }
 
-.reges-languages .navbar-default{
+.navbar-default{
     background-image: none;
     background-color: transparent;
     border: 0px;
     box-shadow: none;
     border-color: none;
+
 }
 .reges-languages .navbar-default .navbar-nav>li>a {
-    color:rgb(47, 85, 151) 
+    color:rgb(47, 85, 151)
 }
 .reges-languages .nav-tabs {
     border-bottom: 0px
