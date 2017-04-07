@@ -92,8 +92,9 @@
     
     <div class="mbr-section__container container">
         <div class="mbr-contacts mbr-contacts--wysiwyg row" style="padding-top: 45px; padding-bottom: 45px;">
-            <div id="FooterPane" runat="server"><footer class="bs-docs-footer"> </footer>
-</div>
+            <div id="FooterPane" runat="server">
+            </div>
+            <dnn:Login runat="server" ID="Login" />
         </div>
     </div>
 </footer>
