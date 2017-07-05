@@ -40,31 +40,15 @@
         $('.language_fra a').html('Bienvenue')
         $('.language_pus a').html('ښه راغلاست')
         $('.language_fas a').html('خوش آمدی')
-        $('.language_urd a').html('خوش')
+        $('.language_urd a').html('ትግርኛ')
+        $('.language_dan a').html('bi xêr bên')
         $('.language-object').show()
     })
 </script>
 
-<nav class="navbar navbar-default">
-  <div class="container">
-    <!-- Brand and toggle get grouped for better mobile display -->
-    <div class="navbar-header">
-      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-        <span class="sr-only">Toggle navigation</span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-      </button>
-    </div>
 
-    <!-- Collect the nav links, forms, and other content for toggling -->
-    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-        <!-- TODO Menu durch einen einfachen DNN Platzhalter ersetzen ... navPane -->
-            <dnn:MENU MenuStyle="BootStrapNav" runat="server"></dnn:MENU>
-    </div><!-- /.navbar-collapse -->
-  </div><!-- /.container-fluid -->
-</nav>
-  
+
+    
        
  
 <!-- Content Pane -->
@@ -88,8 +72,7 @@
 </section>
 
 
-<footer id="14" class="mbr-section mbr-section--relative mbr-section--fixed-size" id="contacts1-7" style="background-color: rgb(47, 85, 151);">
-    
+<footer>
     <div class="mbr-section__container container">
         <div class="mbr-contacts mbr-contacts--wysiwyg row" style="padding-top: 45px; padding-bottom: 45px;">
             <div id="FooterPane" runat="server">

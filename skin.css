@@ -10,6 +10,11 @@ body {
     line-height: 1.428;
 }
 
+h1, h2, h3, h4, h5, h6,
+h1 span, h2 span, h3 span, h4 span, h5 span, h6 span{
+    color: rgb(0,62,114);
+}
+
 .navbar {
     margin-bottom: 0 !important;
     border-radius: 0 !important;
@@ -24,20 +29,28 @@ body {
 
 }
 .reges-languages .navbar-default .navbar-nav>li>a {
-    color:rgb(47, 85, 151)
+    color:rgb(0,62,114);
 }
 .reges-languages .nav-tabs {
     border-bottom: 0px
 }
 
 .language-object{
-    border-top: 20px solid rgb(47, 85, 151);
-    background-color: rgb(47, 85, 151);
+    border-top: 20px solid rgb(0,62,114);
+    background-color: rgb(0,62,114);
 }
 .language-object li{
     color: white;
 }
 .language-object li.active{
     color: #555555
+}
+
+footer{
+    background-color: rgb(0,62,114);
+}
+
+footer a, footer a:visited{
+    color: #fff;
 }
 
